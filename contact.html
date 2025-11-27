@@ -12,7 +12,6 @@
 <nav>
 <a href="index.html">Kezdőlap</a>
 <a href="tickets.html">Jegyek</a>
-<a href="animals.html">Állatok</a>
 <a href="contact.html">Kapcsolat</a>
 </nav>
 </header>
@@ -35,6 +34,16 @@
 <button type="submit">Küldés</button>
 </form>
 </section>
-
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.contact-form');
+    if(form) {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Köszi, hogy írtál! Hamarosan visszajelzünk.');
+        });
+    }
+});
+</script>
 </body>
 </html>

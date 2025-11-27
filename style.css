@@ -1,5 +1,4 @@
 body {
-margin: 0;
 font-family: 'Playfair Display', serif;
 background-color: #FFFFFF;
 color: #212121;
@@ -40,4 +39,14 @@ color: white;
 padding: 10px;
 border: none;
 cursor: pointer;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+}
+
+.card-fixed {
+  width: 300px;      /* vagy 260-280px ha nagyobb */
+  height: 100%; 
 }
