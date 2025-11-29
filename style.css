@@ -23,10 +23,42 @@ background: rgba(142, 183, 0, 0.6);
 font-size: 48px;
 }
 .content {
-padding: 40px;
-max-width: 900px;
-margin: auto;
+background: rgba(255, 255, 255, 0.55);
+backdrop-filter: blur(10px);
+padding: 35px;
+width: 380px;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+.content h2{
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2d3436;
+}
+.input-group{
+  margin-bottom: 25px;
+}
+.input-group label{
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #34495e;
+}
+.input-group input,.input-group textarea{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  background: rgba(143, 183, 0, 0.39);
+  box-shadow: 0 8px 15px rgba(255, 84, 112, 0.596);
+  outline: none;
+  transition: 0.3s;
+}
+.input-group input:focus, .input-group textarea:focus{
+  box-shadow: 0 0 0 2px#FF5470;
+}
+
 .contact-form {
 display: flex;
 flex-direction: column;
@@ -35,10 +67,20 @@ max-width: 400px;
 }
 button {
 background: #FF5470;
-color: white;
-padding: 10px;
+width: 100%;
+padding: 14px;
+font-size: 16px;
 border: none;
+background: linear-gradient(135deg,rgba(255, 84, 112, 0.8), rgba(142, 183, 0, 0.6));
+color: white;
+border-radius: 12px;
 cursor: pointer;
+transition: 0.3s ease;
+}
+button:hover{
+  transform:translateY(-3px);
+  background: linear-gradient(135deg, #8EB700,#FF5470);
+  box-shadow: 0 8px 20px rgba(255, 84, 112, 0.596);
 }
 
 .cards-row {
