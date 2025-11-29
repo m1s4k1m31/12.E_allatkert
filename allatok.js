@@ -83,7 +83,7 @@ adatok.forEach(function (allat, index) {
             <div class="card-body">
                 <h4 class="card-title">${allat.cim}</h4>
                 <p class="card-text">${allat.leiras}</p>
-                <button type="button" class="btn btn-link stretched-link allat-felugro-ablak-gomb" data-index="${index}">Megtekintés</button>
+                <button type="button" class="btn btn-link btn-pink stretched-link allat-felugro-ablak-gomb" data-index="${index}">Megtekintés</button>
             </div>
         </div>
     `;

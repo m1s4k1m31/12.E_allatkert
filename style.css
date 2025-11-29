@@ -76,7 +76,7 @@ nav a {
   max-width: 400px;
 }
 
-button {
+.contact-form button {
   background: #FF5470;
   width: 100%;
   padding: 14px;
@@ -89,8 +89,8 @@ button {
   transition: 0.3s ease;
 }
 
-button:hover {
-  transform:translateY(-3px);
+.contact-form button:hover {
+  transform: translateY(-3px);
   background: linear-gradient(135deg, #8EB700,#FF5470);
   box-shadow: 0 8px 20px rgba(255, 84, 112, 0.596);
 }
@@ -105,9 +105,13 @@ button:hover {
   height: 100%; 
 }
 
-.cards-row .btn-link {
-  color:rgba(255, 84, 112, 0.8);
+.btn-pink {
+  color: rgba(255, 84, 112, 0.8) !important;
   font-weight: bold;
+}
+
+nav a:hover {
+  color: rgba(255, 84, 112, 0.8);
 }
 
 .card-img-wrapper {
