@@ -85,3 +85,8 @@ font-weight: bold;
                                       black 85%, 
                                       transparent 100%);
 }
+
+#allatFelugroAblakKep {
+  max-width: 100%;
+  max-height: 400px;
+}
