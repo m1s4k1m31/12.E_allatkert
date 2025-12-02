@@ -3,14 +3,19 @@ let adatok = [
     {
         cim: 'Ázsiai elefánt',
         kep: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg',
-        leiras: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae esse eos temporibus facilis, commodi porro ducimus? Id deleniti esse porro alias iste ut quisquam facere natus molestiae exercitationem, quasi beatae?
-      Deserunt pariatur adipisci iure reiciendis voluptatem doloremque qui, fugiat beatae assumenda porro corporis. Ipsa nobis non fuga possimus amet molestiae corporis blanditiis a, nisi labore eveniet similique iste cupiditate illum.`,
+        leiras: `Az ázsiai elefánt 3–5 tonnát is nyomhat, és bár hatalmas, mégis meglepően finom mozdulatokra képes: ormánya több mint 40 000 izmot tartalmaz. Kiemelkedően intelligens, fejlett emlékező- és problémamegoldó képességgel rendelkezik, valamint összetett családi csoportokban él.
+
+        Besorolás: emlős, a patások rendjébe tartozik.
+        Hol található az állatkertben: Elefántház / Ázsia-zóna.`,
     },
     {
         cim: 'Gorilla',
         kep: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Bristol.zoo.western.lowland.gorilla.arp.jpg',
-        leiras: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae esse eos temporibus facilis, commodi porro ducimus? Id deleniti esse porro alias iste ut quisquam facere natus molestiae exercitationem, quasi beatae?
-      Deserunt pariatur adipisci iure reiciendis voluptatem doloremque qui, fugiat beatae assumenda porro corporis. Ipsa nobis non fuga possimus amet molestiae corporis blanditiis a, nisi labore eveniet similique iste cupiditate illum.`,
+        leiras: `A gorillák a legnagyobb termetű emberszabású majmok, a hímek súlya akár a 200 kg-ot is elérheti. Rendkívül erősek, mégis békés, családközpontú állatok, amelyek a napjuk nagy részét táplálékszerzéssel és pihenéssel töltik. Mély, morgó hangjuk és mellkasdöngető „kommunikációjuk” ikonikus viselkedésforma.
+        
+        Besorolás: emlős, főemlős.
+        Hol található az állatkertben: Főemlős-ház / Trópusi esőerdő részleg.
+`,
     },
     {
         cim: 'Orángután',
