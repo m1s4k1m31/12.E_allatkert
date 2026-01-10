@@ -3,7 +3,7 @@ let adatok = [
     {
         cim: 'Ázsiai elefánt',
         kep: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Elephas_maximus_%28Bandipur%29.jpg',
-        leiras: 'Az ázsiai elefánt 3–5 tonnát is nyomhat, és bár hatalmas, mégis meglepően finom mozdulatokra képes: ormánya több mint 40 000 izmot tartalmaz. Kiemelkedően intelligens, fejlett emlékező- és problémamegoldó képességgel rendelkezik, valamint összetett családi csoportokban él.',
+        leiras: 'Az ázsiai elefánt 3-5 tonnát is nyomhat, és bár hatalmas, mégis meglepően finom mozdulatokra képes: ormánya több mint 40 000 izmot tartalmaz. Kiemelkedően intelligens, fejlett emlékező- és problémamegoldó képességgel rendelkezik, valamint összetett családi csoportokban él.',
         besorolas: 'emlős, a patások rendjébe tartozik',
         holtalalhato: 'Elefántház / Ázsia-zóna',
     },
@@ -31,21 +31,21 @@ let adatok = [
     {
         cim: 'Oroszlán',
         kep: 'https://img.444.hu/oroszl%C3%A1n-01.jpg',
-        leiras: 'Az oroszlán az egyetlen nagymacska, amely nagy, összetartó csapatokban – úgynevezett falkákban – él. A hímek hatalmas sörénye nemcsak dísz, hanem védi is őket a harcok során. Üvöltésük akár 8 km távolságra is elhallatszik, így kommunikálnak a falkatagokkal és jelzik területüket.',
+        leiras: 'Az oroszlán az egyetlen nagymacska, amely nagy, összetartó csapatokban - úgynevezett falkákban - él. A hímek hatalmas sörénye nemcsak dísz, hanem védi is őket a harcok során. Üvöltésük akár 8 km távolságra is elhallatszik, így kommunikálnak a falkatagokkal és jelzik területüket.',
         besorolas: 'emlős, ragadozó',
         holtalalhato: 'Szavanna-kifutó / Ragadozók részlege',
     },
     {
         cim: 'Jegesmedve',
         kep: 'https://cdn.origo.hu/2023/12/Z4HvgYU2Ae1evhLjIL_J0BiCqLkO2cQVFn-Q_rKtUU8/fit/1200/799/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I5ZDQ3MWIwNDczNjQxODdhMjYyZDBhOTQ5ZGI0OWMx.jpg',
-        leiras: 'A jegesmedve a legnagyobb szárazföldi ragadozó, a hímek tömege elérheti az 500–600 kg-ot is. Fél évig képes nem enni, miközben a jégen vándorol zsákmány után kutatva. Bundája valójában átlátszó, a bőre pedig fekete, hogy jobban elnyelje a nap hőjét.',
+        leiras: 'A jegesmedve a legnagyobb szárazföldi ragadozó, a hímek tömege elérheti az 500-600 kg-ot is. Fél évig képes nem enni, miközben a jégen vándorol zsákmány után kutatva. Bundája valójában átlátszó, a bőre pedig fekete, hogy jobban elnyelje a nap hőjét.',
         besorolas: 'emlős, ragadozó',
         holtalalhato: 'Sarkvidéki kifutó / Jegesmedve-ház',
     },
     {
         cim: 'Pápaszemes pingvin',
         kep: 'https://zoobudapest.com/wp-content/uploads/2025/01/pingvin-scaled.webp',
-        leiras: 'A pápaszemes pingvin egyike a legkisebb pingvinfajoknak, testhossza csupán 60–70 cm. Hatalmas kolóniákban költ, és rendkívül gyors vízi vadász, akár 20 percig is képes a víz alatt maradni. Nevét a szemét körül látható világos „pápaszem” mintáról kapta.',
+        leiras: 'A pápaszemes pingvin egyike a legkisebb pingvinfajoknak, testhossza csupán 60-70 cm. Hatalmas kolóniákban költ, és rendkívül gyors vízi vadász, akár 20 percig is képes a víz alatt maradni. Nevét a szemét körül látható világos „pápaszem” mintáról kapta.',
         besorolas: 'madár',
         holtalalhato: 'Pingvinház / Dél-afrikai partvidék részleg',
     },
