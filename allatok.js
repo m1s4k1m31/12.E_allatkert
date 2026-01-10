@@ -96,156 +96,144 @@ let adatok = [
         <br><br> Besorolás: emlős. <br> Hol található az állatkertben: Ázsia-erdő / Kisragadozók kifutója.`,
     },
     {
-        cim: 'Vidra',
+        cim: 'Víziló',
         kep: 'https://cdn.haon.hu/2023/03/rcdyK6Iak1cCv4d4PUEs9xUKwB5z0yUqqHwaKMW62JY/fill/1347/758/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzYyMTEyMzY2YTExMzQ0YzBhN2M5YTY4NzJjNjU4OWE5.jpg',
-        leiras: `Kiváló úszó. Játékos természetű. Sűrű bundája melegen tartja.
-        <br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Édesvízi élővilág részleg / Vidraház.`,
+        leiras: `A víziló hatalmas testű, mégis gyors. Napközben vízben pihen. Éjszaka legelni indul.<br><br> Besorolás: emlős, patás. <br> Hol található az állatkertben: Vízi emlősök háza / Afrikai zóna.`,
+    },
+    {
+        cim: 'Nílusi krokodil',
+        kep: 'https://www.erdekesvilag.hu/wp-content/uploads/2016/05/nilusi-krokodil-1.jpg',
+        leiras: `Afrika egyik legnagyobb hüllője. Harapása rendkívül erős. Testhőmérsékletét napozással szabályozza.<br><br> Besorolás: hüllő. <br> Hol található az állatkertben: Hüllőház / Afrika-vízpart részleg.`,
+    },
+    {
+        cim: 'Rózsás flamingó',
+        kep: 'https://welovebudapest.com/i/61/rozsas-flamingo06-foto-bagosi-zoltan.JPG',
+        leiras: `Rózsaszín tollazatát a táplálékában lévő festékanyag adja. Sekély vízben táplálkozik. Nagy kolóniákban él.<br><br> Besorolás: madár. <br> Hol található az állatkertben: Madártó / Vizes élőhelyek részleg.`,
+    },
+    {
+        cim: 'Csimpánz',
+        kep: 'https://s.24.hu/app/uploads/2022/12/gettyimages-521166538-e1671445828370.jpg',
+        leiras: `Nagyon intelligens, eszközhasználó főemlős. Összetett társas kapcsolatokban él. Sokféleképpen kommunikál.<br><br> Besorolás: emlős, főemlős. <br> Hol található az állatkertben: Főemlős-ház / Trópusi erdő részleg.`,
+    },
+    {
+        cim: 'Gyűrűsfarkú maki',
+        kep: 'https://zoobudapest.com/wp-content/uploads/2025/10/gyurusfarku_maki-scaled.webp',
+        leiras: `Jellegzetes csíkos farka könnyen felismerhető. Többnyire a földön mozog. Illatjelekkel kommunikál.<br><br> Besorolás: emlős, főemlős. <br> Hol található az állatkertben: Madagaszkár-sziget részleg.`,
+    },
+    {
+        cim: 'Vörös kenguru',
+        kep: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Kangur.rudy.drs.jpg',
+        leiras: `A legnagyobb kengurufaj. Hatalmas ugrásokra képes. Az utód az erszényben fejlődik.<br><br> Besorolás: emlős, erszényes. <br> Hol található az állatkertben: Ausztrál kifutó.`,
+    },
+    {
+        cim: 'Koala',
+        kep: 'https://archiv.budapest.hu/sites/english/PublishingImages/english/Budapest%20Zoo/20150305_Koala.jpg?Width=640&Height=400',
+        leiras: `Sokat alszik, eukaliptuszt eszik. Erős karmokkal kapaszkodik a fákba. Hangos lehet.<br><br> Besorolás: emlős, erszényes. <br> Hol található az állatkertben: Ausztrál ház.`,
+    },
+    {
+        cim: 'Tigriscápa',
+        kep: 'https://ng.24.hu/uploads/2016/06/201606-ts_01.jpg',
+        leiras: `Nevét csíkos mintázatáról kapta. Mindenevő ragadozó. Áramvonalas testű.<br><br> Besorolás: porcos hal. <br> Hol található az állatkertben: Nagyakvárium / Óceáni zóna.`,
+    },
+    {
+        cim: 'Európai farkas',
+        kep: 'https://infostart.hu/images/site/articles/lead/2023/03/1679484928-HLH5cu1HP_md.jpg',
+        leiras: `Falkában vadászik. Üvöltéssel kommunikál. Kerüli az embert.<br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Európai erdő / Farkas-kifutó.`,
+    },
+    {
+        cim: 'Aldabra-óriásteknős',
+        kep: 'https://cdn.veol.hu/2025/11/n4w33IizndQzzcl_Vqb1DDZxQ0Fu16qPM86GtCHaEsQ/fill/1347/758/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2U3MTMzM2M1ZDc0ZTQ4ZTA4OGE0MzZiN2VjMzJiYjQ3.jpg',
+        leiras: `Nagyon hosszú életű. Lassú mozgású. Erős páncél védi.<br><br> Besorolás: hüllő. <br> Hol található az állatkertben: Teknős-sziget / Trópusi ház.`,
+    },
+    {
+        cim: 'Mandrill',
+        kep: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Mandrill_at_san_francisco_zoo.jpg/640px-Mandrill_at_san_francisco_zoo.jpg',
+        leiras: `Színes arcú főemlős. Társas életet él. Hangokkal és mimikával kommunikál.<br><br> Besorolás: emlős, főemlős. <br> Hol található az állatkertben: Főemlős-ház / Afrika-erdő részleg.`,
+    },
+    {
+        cim: 'Vidra',
+        kep: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4q7-KGu55tLwmACOF7L1_LJL3Jc8xsNT4qA&s',
+        leiras: `Kiváló úszó. Játékos természetű. Sűrű bundája melegen tartja.<br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Édesvízi élővilág részleg / Vidraház.`,
     },
     {
         cim: 'Páva',
-        kep: 'https://www.erdekesvilag.hu/wp-content/uploads/2016/05/nilusi-krokodil-1.jpg',
+        kep: 'https://madaraink.hu/wp-content/uploads/2024/07/kek-pava-pavo-cristatus-hangja1.jpeg',
         leiras: `A hímek látványos farktollazattal udvarolnak. A színek fénytörésből adódnak.<br><br> Besorolás: madár. <br> Hol található az állatkertben: Madárkert / Ázsiai részleg.`,
     },
     {
-        cim: 'Teszt állat',
-        kep: 'https://welovebudapest.com/i/61/rozsas-flamingo06-foto-bagosi-zoltan.JPG',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
         cim: 'Emu',
-        kep: 'https://s.24.hu/app/uploads/2022/12/gettyimages-521166538-e1671445828370.jpg',
-        leiras: `Nagy testű futómadár. Gyors futó. A hím neveli a fiókákat.
-        <br><br> Besorolás: madár. <br> Hol található az állatkertben: Ausztrál kifutó.`,
+        kep: 'https://cdn.britannica.com/13/154513-050-C8FB64D4/Emu.jpg',
+        leiras: `Nagy testű futómadár. Gyors futó. A hím neveli a fiókákat.<br><br> Besorolás: madár. <br> Hol található az állatkertben: Ausztrál kifutó.`,
     },
     {
         cim: 'Nandu',
-        kep: 'https://zoobudapest.com/wp-content/uploads/2025/10/gyurusfarku_maki-scaled.webp',
-        leiras: `Dél-amerikai futómadár. Gyors és kitartó. A hím költi a tojásokat.
-        <br><br> Besorolás: madár. <br> Hol található az állatkertben: Dél-amerikai szavanna.`,
+        kep: 'https://safaripark-pusztaottlaka.hu/wp-content/uploads/2022/04/pusztaottlaka-safaripark_45-2.jpg',
+        leiras: `Dél-amerikai futómadár. Gyors és kitartó. A hím költi a tojásokat.<br><br> Besorolás: madár. <br> Hol található az állatkertben: Dél-amerikai szavanna.`,
     },
     {
         cim: 'Barnamedve',
-        kep: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Kangur.rudy.drs.jpg',
-        leiras: `Nagy testű, erős ragadozó. Ősszel felkészül a télre. Kiváló szaglású.
-        <br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Európai erdő kifutó.`,
+        kep: 'https://kep.index.hu/1/0/3917/39173/391735/39173537_f08fc68ee377f98e55830460f37662b0_wm.jpg',
+        leiras: `Nagy testű, erős ragadozó. Ősszel felkészül a télre. Kiváló szaglású.<br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Európai erdő kifutó.`,
     },
     {
         cim: 'Mosómedve',
-        kep: 'https://archiv.budapest.hu/sites/english/PublishingImages/english/Budapest%20Zoo/20150305_Koala.jpg?Width=640&Height=400',
-        leiras: `Ügyes mancsú, intelligens állat. Éjszakai életmódú. Gyakran „mos” ételt.
-        <br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Kisragadozók háza.`,
+        kep: 'https://kep.cdn.index.hu/1/0/2763/27632/276323/27632351_74fcb3f5974c20b32358e002980aaf59_wm.jpg',
+        leiras: `Ügyes mancsú, intelligens állat. Éjszakai életmódú. Gyakran „mos” ételt.<br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Kisragadozók háza.`,
     },
     {
         cim: 'Leopárd',
-        kep: 'https://ng.24.hu/uploads/2016/06/201606-ts_01.jpg',
-        leiras: `Kiváló mászó. Lopakodó vadász. Rozettás bundájú.
-        <br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Afrikai ragadozók kifutója.`,
+        kep: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_yPWJCerU5LwncIzkL-i6u3W4lwaSE9xsg&s',
+        leiras: `Kiváló mászó. Lopakodó vadász. Rozettás bundájú.<br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Afrikai ragadozók kifutója.`,
     },
     {
         cim: 'Jaguár',
-        kep: 'https://infostart.hu/images/site/articles/lead/2023/03/1679484928-HLH5cu1HP_md.jpg',
-        leiras: `Nagyon erős harapású. Szereti a vizet. Foltos bundája jellegzetes.
-        <br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Dél-amerikai esőerdő részleg.`,
+        kep: 'https://bengalcat.pet/wp-content/uploads/photo-gallery/imported_from_media_libray/szerval-3.jpg?bwg=1682074338',
+        leiras: `Nagyon erős harapású. Szereti a vizet. Foltos bundája jellegzetes.<br><br> Besorolás: emlős, ragadozó. <br> Hol található az állatkertben: Dél-amerikai esőerdő részleg.`,
     },
     {
         cim: 'Kaliforniai oroszlánfóka',
-        kep: 'https://cdn.veol.hu/2025/11/n4w33IizndQzzcl_Vqb1DDZxQ0Fu16qPM86GtCHaEsQ/fill/1347/758/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2U3MTMzM2M1ZDc0ZTQ4ZTA4OGE0MzZiN2VjMzJiYjQ3.jpg',
-        leiras: `Gyors úszó. Okos és játékos. Gyakran szerepel bemutatókon.
-        <br><br> Besorolás: emlős, tengeri emlős. <br> Hol található az állatkertben: Fóka-medence / Tengeri bemutató.
-`,
+        kep: 'https://lh6.googleusercontent.com/proxy/-FN25HSfsWN5bmCCLzU6lmmWCbMIXNuRoTgHiuRIvbGraBKNYmRkLtusoPB2PWHHAxmXItAP-7VSh1dOYwihLsVG_FX1yDNZ0s2K',
+        leiras: `Gyors úszó. Okos és játékos. Gyakran szerepel bemutatókon.<br><br> Besorolás: emlős, tengeri emlős. <br> Hol található az állatkertben: Fóka-medence / Tengeri bemutató.`,
     },
     {
         cim: 'Delfin',
-        kep: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Mandrill_at_san_francisco_zoo.jpg/640px-Mandrill_at_san_francisco_zoo.jpg',
-        leiras: `Rendkívül intelligens tengeri emlős. Hangokkal kommunikál. Gyors úszó.
-        <br><br> Besorolás: emlős, tengeri emlős. <br> Hol található az állatkertben: Delfinárium (ha van).`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4q7-KGu55tLwmACOF7L1_LJL3Jc8xsNT4qA&s',
-        leiras: `Ez a teszt állat leírása.`,
+        kep: 'https://tgymagazin.hu/wp-content/uploads/2014/09/shutterstock-2462523815-1-1000x588.jpg',
+        leiras: `Rendkívül intelligens tengeri emlős. Hangokkal kommunikál. Gyors úszó.<br><br> Besorolás: emlős, tengeri emlős. <br> Hol található az állatkertben: Delfinárium (ha van).`,
     },
     {
         cim: 'Havasi kecske',
-        kep: 'https://madaraink.hu/wp-content/uploads/2024/07/kek-pava-pavo-cristatus-hangja1.jpeg',
-        leiras: `Jól mászik sziklákon. Tapadós lábpárnái vannak. Hidegtűrő bundájú.
-
-<br><br> Besorolás: emlős, patás. <br> Hol található az állatkertben: Hegyi állatok kifutója.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://cdn.britannica.com/13/154513-050-C8FB64D4/Emu.jpg',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://safaripark-pusztaottlaka.hu/wp-content/uploads/2022/04/pusztaottlaka-safaripark_45-2.jpg',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://kep.index.hu/1/0/3917/39173/391735/39173537_f08fc68ee377f98e55830460f37662b0_wm.jpg',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://kep.cdn.index.hu/1/0/2763/27632/276323/27632351_74fcb3f5974c20b32358e002980aaf59_wm.jpg',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm_yPWJCerU5LwncIzkL-i6u3W4lwaSE9xsg&s',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://bengalcat.pet/wp-content/uploads/photo-gallery/imported_from_media_libray/szerval-3.jpg?bwg=1682074338',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://lh6.googleusercontent.com/proxy/-FN25HSfsWN5bmCCLzU6lmmWCbMIXNuRoTgHiuRIvbGraBKNYmRkLtusoPB2PWHHAxmXItAP-7VSh1dOYwihLsVG_FX1yDNZ0s2K',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
-        kep: 'https://tgymagazin.hu/wp-content/uploads/2014/09/shutterstock-2462523815-1-1000x588.jpg',
-        leiras: `Ez a teszt állat leírása.`,
-    },
-    {
-        cim: 'Teszt állat',
         kep: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Mountain_Goat_USFWS.jpg/1200px-Mountain_Goat_USFWS.jpg',
-        leiras: `Ez a teszt állat leírása.`,
+        leiras: `Jól mászik sziklákon. Tapadós lábpárnái vannak. Hidegtűrő bundájú.<br><br> Besorolás: emlős, patás. <br> Hol található az állatkertben: Hegyi állatok kifutója.`,
     },
     {
-        cim: 'Teszt állat',
+        cim: 'Aranyfácán',
         kep: 'https://www.haziallat.hu/diszmadarak/aranyfacan-kezdoknek-es-haladoknak/1083/1/kina-facan-aranyfacan.jpg',
-        leiras: `Ez a teszt állat leírása.`,
+        leiras: `Színpompás tollazatú. Gyors futó. Látványos udvarlótánca van.<br><br> Besorolás: madár. <br> Hol található az állatkertben: Díszmadár-kert / Ázsiai részleg.`,
     },
     {
-        cim: 'Teszt állat',
+        cim: 'Törpekrokodil',
         kep: 'https://media.istockphoto.com/id/1462149977/hu/fot%C3%B3/t%C3%B6rpe-kajm%C3%A1n-krokodil.jpg?s=612x612&w=0&k=20&c=JsvUnpOYT9kgWLkpK6EJOA1IcJ0zLENzdoJZwuvBGzs=',
-        leiras: `Ez a teszt állat leírása.`,
+        leiras: `Kis termetű krokodilfaj. Éjszakai életmódú. Rejtőzködő.<br><br> Besorolás: hüllő. <br> Hol található az állatkertben: Hüllőház.`,
     },
     {
-        cim: 'Teszt állat',
+        cim: 'Óriás varánusz',
         kep: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Komodo_dragon_Varanus_komodoensis_Ragunan_Zoo_2.JPG/1200px-Komodo_dragon_Varanus_komodoensis_Ragunan_Zoo_2.JPG',
-        leiras: `Ez a teszt állat leírása.`,
+        leiras: `Nagy testű gyíkfaj. Jó úszó. Kiváló szaglású.<br><br> Besorolás: hüllő. <br> Hol található az állatkertben: Hüllőház / Trópusi részleg.`,
     },
     {
-        cim: 'Teszt állat',
+        cim: 'Tüskés tarajos sül',
         kep: 'https://s.24.hu/app/uploads/sites/11/2020/11/tarajos-e1606151505869.jpg',
-        leiras: `Ez a teszt állat leírása.`,
+        leiras: `Hátán hosszú tüskék vannak. Éjszaka aktív. Békés természetű.<br><br> Besorolás: emlős, rágcsáló. <br> Hol található az állatkertben: Éjszakai állatok háza.`,
     },
     {
-        cim: 'Teszt állat',
+        cim: 'Óriás csikóhal',
         kep: 'https://myfish.hu/wp-content/uploads/2024/06/570.jpg',
-        leiras: `Ez a teszt állat leírása.`,
+        leiras: `Nagy méretű csikóhalfaj. A hím hordja az utódokat. Jól rejtőzködik.<br><br> Besorolás: hal. <br> Hol található az állatkertben: Tengeri akvárium / Korallzóna.`,
     },
     {
-        cim: 'Teszt állat',
+        cim: 'Főnix-sikló',
         kep: 'https://mme.hu/sites/default/files/styles/lead_image_904x555/public/keteltuek_es_hullok/fejleckepek/zamlon_01_h_halpern_balint_c.jpg?itok=ZhvNJFTm',
-        leiras: `Ez a teszt állat leírása.`,
+        leiras: `Nem mérges kígyófaj. Gyors és karcsú. Gyakran mászik fára.<br><br> Besorolás: hüllő. <br> Hol található az állatkertben: Hüllőház.`,
     },
 ];
 
