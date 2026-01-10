@@ -78,8 +78,7 @@ let adatok = [
         <br>
         Besorolás: emlős, patás.
         <br>
-        Hol található az állatkertben: Szavanna-kifutó.
-`,
+        Hol található az állatkertben: Szavanna-kifutó.`,
     },
     {
         cim: 'Gepárd',
@@ -239,15 +238,13 @@ let adatok = [
 
 // Annyi kártya legyen, ahány állat van a tömbben
 adatok.forEach(function (allat, index) {
-    let style = '';
-
     // Az oldal betöltésekor csak az első néhány állat jelenjen meg, a többi legyen rejtve
-    if ((index + 1) > 8) {
-        style += 'display: none;'
-    }
+    let cardStyle = (index + 1) > 8
+        ? 'display: none;'
+        : '';
 
     document.querySelector('#allatok').innerHTML += `
-        <div class="card mt-5 card-fixed mx-2" style="${style}">
+        <div class="card mt-5 card-fixed mx-2" style="${cardStyle}">
             <div class="card-img-wrapper">
                 <img class="card-img-top" src="${allat.kep}">
             </div>
